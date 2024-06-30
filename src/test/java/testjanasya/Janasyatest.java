@@ -30,7 +30,7 @@ import pagejanasya.Janasyapage;
 		public void test1() throws Exception
 		{
 			//Thread.sleep(5000);
-			Janasyapage obj1=new Janasyapage(driver);
+			Janasyapage obj1=new Janasyapage(driver, driver);
 			obj1.actions();
 			obj1.action1();
 			obj1.action2();

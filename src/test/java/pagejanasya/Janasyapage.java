@@ -12,7 +12,7 @@ public class Janasyapage {
 	
 	WebDriver driver;
 	By new_arrival=By.xpath("//*[@id=\"HeaderNavigation\"]/nav/ul/li[1]/a");
-	By logo=By.xpath("//*[@id=\"shopify-section-sections--16349892411562__0551e2c3-4916-467e-a6e9-b0d8594a3ff3\"]/header/div/div/div[2]/div/div/div/a/img");
+	By logo=By.xpath("/html/body/div[2]/div[2]/header/div/div/div[2]/div/div/div/a/img");
 	By itembox=By.xpath("//*[@id=\"CollectionProductGrid\"]/div/toolbar-item/div[2]/div[3]/div[1]/div/div");
 	By itemno=By.xpath("//*[@id=\"CollectionProductGrid\"]/div/toolbar-item/div[2]/div[3]/div[1]/div/ul/li[2]/span");
 	By categories=By.xpath("//*[@id=\"halo-sidebar\"]/div[2]/div[1]/div[1]/h3");
@@ -28,7 +28,7 @@ public class Janasyapage {
 	By wishlist=By.xpath("//*[@id=\"main-collection-product-grid\"]/li[1]/div/div/div[1]/div/div[3]/div[1]/button");
 	
 	
-	public Janasyapage(WebDriver driver2) {
+	public Janasyapage(WebDriver driver2, WebDriver driver) {
 		// TODO Auto-generated constructor stub
 
 		this.driver=driver;
